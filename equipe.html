@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="assets/ico/favicon.png">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/jpeg" href="favicon.jpg" />
+    <title>La vie en vert — L'équipe</title>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-green navbar-fixed-top" role="navigation">
+<div class="navbar-header">
+  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+  </button>
+  <span class="navbar-brand">la vie en vert</span>
+</div>
+<div class="navbar-collapse collapse">
+  <ul id="tabs" class="nav navbar-nav">
+    <li><a href="/">Le film</a></li>
+    <li class="active"><a href="/equipe.html">L'équipe</a></li>
+    <li><a href="/bonus.html">Bonus</a></li>
+  </ul>
+</div>
+</nav>
+
+    <div class="container">
+      
+  <div id="equipe">
+    <h1>L'équipe</h1>
+    <table class="table table-responsive">
+    
+    <tr><td>
+    <img src="img/victor.png" />
+    </td><td>
+    <p style="margin: auto">
+    <strong style="font-family: hurryup">Victor Besse</strong><br/>
+    +33 6 89 15 47 25<br/>
+    <span>bessevictor@gmail.com</span><br/>
+    <a href="http://fr.linkedin.com/in/victorbesse">http://fr.linkedin.com/in/victorbesse</a><br />
+    <a href="http://bessevictor.wix.com/demoreel">http://bessevictor.wix.com/demoreel</a><br />
+    <em>Spécialisations</em>: Texturing, Rendering, Compositing, Scénario
+    </p>
+</td>
+</tr>
+
+    <tr><td>
+    <img src="img/sebastien.png" />
+    </td><td>
+    <p style="margin: auto">
+    <strong style="font-family: hurryup">Sébastien Camrrubi</strong><br/>
+    +33 6 70 34 33 49<br/>
+    <span>s.camrrubi@gmail.com</span><br/>
+    <a href="http://www.sebastiencamrrubi.com">http://www.sebastiencamrrubi.com</a><br />
+    <em>Spécialisations</em>: Facial rigging, Storyboard, Animation, Modélisation
+    </p>
+</td>
+</tr>
+
+    <tr><td>
+    <img src="img/valentin.png" />
+    </td><td>
+    <p style="margin: auto">
+    <strong style="font-family: hurryup">Valentin Dornel</strong><br/>
+    +33 6 31 96 49 29<br/>
+    <span>valentin.dornel@gmail.com</span><br/>
+    <a href="http://www.linkedin.com/in/valentindornel">http://www.linkedin.com/in/valentindornel</a><br />
+    <em>Spécialisations</em>: Fx, Rigging, R&amp;D (Python), Compositing
+    </p>
+</td>
+</tr>
+
+    <tr><td>
+    <img src="img/benoit.png" />
+    </td><td>
+    <p style="margin: auto">
+    <strong style="font-family: hurryup">Benoît Maillet</strong><br/>
+    +33 6 70 89 14 29<br/>
+    <span>pmbenoitmaillet@gmail.com</span><br/>
+    <a href="http://fr.linkedin.com/in/mailletbenoit">http://fr.linkedin.com/in/mailletbenoit</a><br />
+    <em>Spécialisations</em>: Rendering, Compositing, Texturing, Character design
+    </p>
+</td>
+</tr>
+
+    <tr><td>
+    <img src="img/philippe.png" />
+    </td><td>
+    <p style="margin: auto">
+    <strong style="font-family: hurryup">Philippe Moîne</strong><br/>
+    +33 6 47 81 41 21<br/>
+    <span>pmoine.3d@gmail.com</span><br/>
+    <a href="http://www.pliplip.com">http://www.pliplip.com</a><br />
+    <em>Spécialisations</em>: Animation, Character design
+    </p>
+</td>
+</tr>
+
+</table>
+  <div style="margin: 50px; text-align: center;">
+      <img src="img/team.png"/>
+  </div>
+  </div>
+
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        $('.navbar li').click(function(e) {
+            $('.navbar li').removeClass('active');
+            var $this = $(this);
+            if (!$this.hasClass('active')) {
+                $this.addClass('active');
+            }
+//            e.preventDefault();
+        });
+    </script>
+
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+            $('#tabs').tab();
+        });
+    </script>  
+  </body>
+</html>

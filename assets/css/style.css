@@ -1,0 +1,65 @@
+@font-face {
+    font-family: hurryup;
+    src: url("../fonts/hurryup.ttf") format("opentype");
+}
+
+.navbar-green {
+  /*background-color: #89b697;
+  background-color: #64b743;*/
+  background-color: #a0cf8e;
+  border-color: #080808;
+}
+
+.navbar-green .navbar-brand {
+  color: #ffffff;
+  font-family: hurryup;
+  font-size: 2.5em;
+  margin-right: 50px;
+}
+
+.navbar-green .navbar-brand:hover,
+.navbar-green .navbar-brand:focus {
+  color: #ffffff;
+  background-color: transparent;
+}
+
+.navbar-green .navbar-text {
+  color: #ffffff;
+}
+
+.navbar-green .navbar-nav > li > a {
+  color: #ffffff;
+  font-family: hurryup;
+}
+
+.navbar-green .navbar-nav > li > a:hover,
+.navbar-green .navbar-nav > li > a:focus {
+  color: #ffffff;
+  background-color: transparent;
+}
+
+.navbar-green .navbar-nav > .active > a,
+.navbar-green .navbar-nav > .active > a:hover,
+.navbar-green .navbar-nav > .active > a:focus {
+  color: #ffffff;
+  background-color: #64b743;
+}
+
+.navbar-green .navbar-toggle {
+  border-color: #333333;
+}
+
+.navbar-green .navbar-toggle:hover,
+.navbar-green .navbar-toggle:focus {
+  background-color: #333333;
+}
+
+h1 {
+  font-family: hurryup;
+  color: #64b743 !important;
+  font-size: 3.5em !important;
+}
+
+body {
+  padding-top: 100px;
+}

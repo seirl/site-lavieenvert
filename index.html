@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="assets/ico/favicon.png">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/jpeg" href="favicon.jpg" />
+    <title>La vie en vert — le film</title>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-green navbar-fixed-top" role="navigation">
+<div class="navbar-header">
+  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+  </button>
+  <span class="navbar-brand">la vie en vert</span>
+</div>
+<div class="navbar-collapse collapse">
+  <ul id="tabs" class="nav navbar-nav">
+    <li class="active"><a href="/">Le film</a></li>
+    <li><a href="/equipe.html">L'équipe</a></li>
+    <li><a href="/bonus.html">Bonus</a></li>
+  </ul>
+</div>
+</nav>
+
+    <div class="container">
+      
+  <div id="main" class="jumbotron">
+    <h1 style="margin-top: 0px; margin-bottom: 50px;">la vie en vert</h1>
+    <iframe width="1000" height="562"
+        src="//www.youtube.com/embed/xOO6hqWOV44?rel=0" frameborder="0"
+        allowfullscreen></iframe>
+    <h1 style="margin-top: 50px; margin-bottom: 50px;">la vie en vert (english)</h1>
+    <iframe width="1000" height="562"
+        src="//www.youtube.com/embed/TIWMMZEotDs?rel=0" frameborder="0"
+        allowfullscreen></iframe>
+  </div>
+
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        $('.navbar li').click(function(e) {
+            $('.navbar li').removeClass('active');
+            var $this = $(this);
+            if (!$this.hasClass('active')) {
+                $this.addClass('active');
+            }
+//            e.preventDefault();
+        });
+    </script>
+
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+            $('#tabs').tab();
+        });
+    </script>  
+  </body>
+</html>
